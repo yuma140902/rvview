@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 use windows::Win32::{
     Foundation::{HMODULE, HWND, LPARAM, LRESULT, WPARAM},
     Graphics::Gdi::ValidateRect,
